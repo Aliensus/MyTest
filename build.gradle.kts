@@ -14,6 +14,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("org.seleniumhq.selenium:selenium-java:4.+")
+    testImplementation("io.github.bonigarcia:webdrivermanager:5.+")
+    testImplementation("org.testng:testng:7.1.0")
 }
 
 tasks.test {
